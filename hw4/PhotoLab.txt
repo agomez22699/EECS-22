@@ -1,0 +1,5 @@
+In this lab, we mainly followed the slides in order to complete most of the operations performed. For instance, adding an entirely new structure, new DIPs, and many more.
+
+Please note that this homework assignment might not run/ contain many buggy elements. There was unforeseen circumstances that prevented me from doing most of the lab assignment. Most of the lab was meant for partial credit at most. Thank you for understanding.
+
+In this homework assignment, we included a new dynmic data strcture, New filters such as Square, Enlarge, and Brightness and contrast.

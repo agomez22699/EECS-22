@@ -1,0 +1,29 @@
+Script started on Sun 01 Mar 2020 10:56:20 PM PST
+]0;agomez12@bondi:~/hw4[agomez12@bondi ~/hw4]$ make
+gcc -ansi -std=c99 -Wall -c PhotoLab.c -o PhotoLab.o
+PhotoLab.c: In function ‘main’:
+PhotoLab.c:66: error: ‘image’ undeclared (first use in this function)
+PhotoLab.c:66: error: (Each undeclared identifier is reported only once
+PhotoLab.c:66: error: for each function it appears in.)
+PhotoLab.c:66: error: too many arguments to function ‘LoadImage’
+PhotoLab.c:66: warning: assignment makes integer from pointer without a cast
+PhotoLab.c:81: error: expected expression before ‘IMAGE’
+PhotoLab.c:84: error: expected expression before ‘IMAGE’
+PhotoLab.c:88: error: expected expression before ‘IMAGE’
+PhotoLab.c:94: error: expected expression before ‘IMAGE’
+PhotoLab.c:94: error: too few arguments to function ‘Hue’
+PhotoLab.c:99: error: expected expression before ‘IMAGE’
+PhotoLab.c:109: error: expected expression before ‘IMAGE’
+PhotoLab.c:109: error: too few arguments to function ‘Posterize’
+PhotoLab.c:115: error: expected expression before ‘IMAGE’
+PhotoLab.c:121: error: expected expression before ‘IMAGE’
+PhotoLab.c:121: error: too few arguments to function ‘Enlarge’
+PhotoLab.c:131: error: expected expression before ‘IMAGE’
+PhotoLab.c:131: error: too few arguments to function ‘Square’
+PhotoLab.c:139: error: expected expression before ‘IMAGE’
+PhotoLab.c:139: error: too few arguments to function ‘BrightnessAndContrast’
+make: *** [PhotoLab.o] Error 1
+]0;agomez12@bondi:~/hw4[agomez12@bondi ~/hw4]$ exit
+exit
+
+Script done on Sun 01 Mar 2020 10:56:34 PM PST
