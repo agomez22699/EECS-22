@@ -1,0 +1,11 @@
+We begin with first including variables on top of our main to be used in the program while running. This is self explanatory and necessary for the program. 
+
+Next, we created a switch statement in the main to make the test cases for each input simpler rather than doing a bunch of if statements.
+
+After the switch statement, we worked on the Black and White Filter. Here we basically added a temp variable to store the values and assign to the new arrays.
+
+In hue, we essentially converted degrees to radians, checked the values of the new rgbs and checked if they were in range with if statements.
+
+In Sharpen, we made temp arrays to store old values and used for loops to assign the variables. 
+
+Auto test, we just made the functions in the other function.

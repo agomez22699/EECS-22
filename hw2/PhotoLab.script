@@ -1,0 +1,62 @@
+Script started on Thu 06 Feb 2020 10:52:40 PM PST
+]0;agomez12@bondi:~/hw2[agomez12@bondi ~/hw2]$ exitgcc -ansi -std=c99 -Wall PhotoLab.c -o Test1[1@-[P [1@ [1@-[1@l[1@m -o Test1
+]0;agomez12@bondi:~/hw2[agomez12@bondi ~/hw2]$ gcc -ansi -std=c99 -Wall PhotoLab.c -lm -o Test1[25Gexit[Kgcc -ansi -std=c99 -Wall PhotoLab.c -o Test1[25Glogout[K[25G./Test1
+-------------------------------------------
+1: Load a PPM Image
+2: Save the Image in PPM and JPEG format
+3: Change the Color of the Image to Black and White
+4: Sharpen the Image
+5: Change the Hue of the Image
+6: Test ALL Functions
+7: Exit
+-------------------------------------------
+Please make a choice:
+6
+applestore.ppm was read successfully!
+aging.ppm was saved successfully. 
+aging.jpg was stored for viewing. 
+Aging tested!
+
+applestore.ppm was read successfully!
+bw.ppm was saved successfully. 
+bw.jpg was stored for viewing. 
+Black and White tested!
+
+applestore.ppm was read successfully!
+sharpen.ppm was saved successfully. 
+sharpen.jpg was stored for viewing. 
+Sharpen tested!
+
+applestore.ppm was read successfully!
+hue.ppm was saved successfully. 
+hue.jpg was stored for viewing. 
+Hue tested!
+
+AutoTest operation is done!
+
+-------------------------------------------
+1: Load a PPM Image
+2: Save the Image in PPM and JPEG format
+3: Change the Color of the Image to Black and White
+4: Sharpen the Image
+5: Change the Hue of the Image
+6: Test ALL Functions
+7: Exit
+-------------------------------------------
+Please make a choice:
+-------------------------------------------
+1: Load a PPM Image
+2: Save the Image in PPM and JPEG format
+3: Change the Color of the Image to Black and White
+4: Sharpen the Image
+5: Change the Hue of the Image
+6: Test ALL Functions
+7: Exit
+-------------------------------------------
+Please make a choice:
+7
+Exiting PhotoLab
+]0;agomez12@bondi:~/hw2[agomez12@bondi ~/hw2]$ exit
+exit
+
+Script done on Thu 06 Feb 2020 10:53:31 PM PST
