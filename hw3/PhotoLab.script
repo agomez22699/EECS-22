@@ -1,0 +1,109 @@
+Script started on Tue 18 Feb 2020 11:28:23 PM PST
+]0;agomez12@bondi:~/hw3[agomez12@bondi ~/hw3]$ make clean
+rm *.o
+rm PhotoLab
+rm PhotoLabTest
+rm: cannot remove `PhotoLabTest': No such file or directory
+make: *** [clean] Error 1
+]0;agomez12@bondi:~/hw3[agomez12@bondi ~/hw3]$ make PhotoLab
+gcc -c -Wall -ansi -std=c99 FileIO.c -o FileIO.o
+gcc -c -Wall -ansi -std=c99 DIPs.c -lm -o DIPs.o
+gcc -c -Wall -ansi -std=c99 Advanced.c -o Advanced.o
+gcc -c -Wall -ansi -std=c99 -g -DNDEBUG PhotoLab.c -lm  -o PhotoLab.o
+gcc -Wall -ansi -std=c99 -g -DNDEBUG FileIO.o DIPs.o Advanced.o PhotoLab.o -lm  -o PhotoLab
+]0;agomez12@bondi:~/hw3[agomez12@bondi ~/hw3]$ ./PhotoLab
+
+-------------------------
+1: Load a PPM image
+2: Save the image in PPM and JPEG format
+3: Change the color image to black and white
+4: Sharpen the image
+5: Change the hue of image
+6: Add noise to an image
+7: Posterize an image
+8: Motion Blur (Not Working/Do not select)
+9: Test all functions
+10: Exit
+--------------------------
+Please make your choise: 9
+CrystalChurch.ppm was read.
+bw.ppm was saved. 
+bw.jpg was stored.
+Black and White tested!
+
+CrystalChurch.ppm was read.
+sharpen.ppm was saved. 
+sharpen.jpg was stored.
+Sharpen tested!
+
+CrystalChurch.ppm was read.
+hue.ppm was saved. 
+hue.jpg was stored.
+Hue tested!
+
+CrystalChurch.ppm was read.
+
+ Noise is not working... 
+noise.ppm was saved. 
+noise.jpg was stored.
+Noise tested!
+
+CrystalChurch.ppm was read.
+posterize.ppm was saved. 
+posterize.jpg was stored.
+Posterize tested!
+
+
+-------------------------
+1: Load a PPM image
+2: Save the image in PPM and JPEG format
+3: Change the color image to black and white
+4: Sharpen the image
+5: Change the hue of image
+6: Add noise to an image
+7: Posterize an image
+8: Motion Blur (Not Working/Do not select)
+9: Test all functions
+10: Exit
+--------------------------
+Please make your choise: 10
+You exit the program.
+]0;agomez12@bondi:~/hw3[agomez12@bondi ~/hw3]$ make PhotoLabTest
+gcc -c -Wall -ansi -std=c99 -g -DDEBUG PhotoLab.c -lm  -o PhotoLab.o
+gcc -Wall -ansi -std=c99 -g -DNDEBUG FileIO.o DIPs.o Advanced.o PhotoLab.o -lm  -o PhotoLabTest
+]0;agomez12@bondi:~/hw3[agomez12@bondi ~/hw3]$ /[K,[K./PhotoLabTest
+CrystalChurch.ppm was read.
+bw.ppm was saved. 
+bw.jpg was stored.
+Black and White tested!
+
+CrystalChurch.ppm was read.
+sharpen.ppm was saved. 
+sharpen.jpg was stored.
+Sharpen tested!
+
+CrystalChurch.ppm was read.
+hue.ppm was saved. 
+hue.jpg was stored.
+Hue tested!
+
+CrystalChurch.ppm was read.
+
+ Noise is not working... 
+noise.ppm was saved. 
+noise.jpg was stored.
+Noise tested!
+
+CrystalChurch.ppm was read.
+posterize.ppm was saved. 
+posterize.jpg was stored.
+Posterize tested!
+
+]0;agomez12@bondi:~/hw3[agomez12@bondi ~/hw3]$ touch Advanced.c
+]0;agomez12@bondi:~/hw3[agomez12@bondi ~/hw3]$ make PhotoLab
+gcc -c -Wall -ansi -std=c99 Advanced.c -o Advanced.o
+gcc -Wall -ansi -std=c99 -g -DNDEBUG FileIO.o DIPs.o Advanced.o PhotoLab.o -lm  -o PhotoLab
+]0;agomez12@bondi:~/hw3[agomez12@bondi ~/hw3]$ exit
+exit
+
+Script done on Tue 18 Feb 2020 11:30:18 PM PST
